@@ -1,4 +1,4 @@
-SQL Project Overview:
+SQL Project Overview and Instructions:
 
 This SQL project addresses the following questions related to flight data analysis:
 
@@ -21,6 +21,11 @@ This SQL project addresses the following questions related to flight data analys
 17: Display a weekday vs time grid showing frequency of flights from Bangalore and Delhi
 18: Display a weekday vs time grid for showing average flight prices from Bangalore and Delhi
 
-The answers to these questions can be found in the accompanying .sql file in this folder.
+Instructions to Run the .sql File:
+
+1. Install MySQL in your local machine.
+2. Import the dataset (flights.csv) present in this folder to MySQL Workbench.
+3. Use the provided .sql file to run the SQL queries and find the answers to the above questions.
 
 For detailed SQL queries and answers, please refer to the provided .sql file.
+
