@@ -1,0 +1,26 @@
+SQL Project Overview:
+
+This SQL project addresses the following questions related to flight data analysis:
+
+1: Find the month with the most number of flights (on the basis of departures)
+2: Determine which week has the most costly flights
+3: Find the number of Indigo flights every month
+4: List all flights departing between 10AM and 2PM from Delhi to Bangalore
+5: Calculate the number of flights departing on weekends from Bangalore
+6: Calculate arrival times for all flights by adding the duration to the departure time
+7: Calculate arrival dates for all the flights
+8: Find the number of flights that travel on multiple dates
+9: Calculate the average duration of flights between all city pairs
+10: Find all flights that departed before midnight but arrived at their destination after midnight having only 0 stop
+11: Determine quarter-wise number of flights for each airline
+12: Find the longest flight distance (between cities in terms of time) in India
+13: Calculate the average time duration for flights with non-stop vs more than 0 stops
+14: Calculate the average price for flights with non-stop vs more than 0 stops
+15: Find all Air India flights in a given date range (1 Mar 2019 - 10 Mar 2019) originating from Delhi
+16: Find the longest flight of each airline
+17: Display a weekday vs time grid showing frequency of flights from Bangalore and Delhi
+18: Display a weekday vs time grid for showing average flight prices from Bangalore and Delhi
+
+The answers to these questions can be found in the accompanying .sql file in this folder.
+
+For detailed SQL queries and answers, please refer to the provided .sql file.
