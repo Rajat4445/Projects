@@ -1,0 +1,55 @@
+eventid: A 12-digit Event ID system. First 8 numbers – date recorded “yyyymmdd”. Last 4 numbers – sequential case number for the given day (0001, 0002 etc).
+
+iyear: This field contains the year in which the incident occurred.
+
+imonth: This field contains the number of the month in which the incident occurred.
+
+iday: This field contains the numeric day of the month on which the incident occurred.
+
+extended: 1 = "Yes" The duration of an incident extended more than 24 hours. 0 = "No" The duration of an incident extended less than 24 hours.
+
+country: This field identifies the country code.
+
+country_txt: This field identifies the country or location where the incident occurred.
+
+region: This field identifies the region code based on 12 regions.
+
+region_txt: This field identifies the region in which the incident occurred.
+
+provstate: Name (at the time of event) of the 1st order subnational administrative region.
+
+city: Name of the city, village, or town in which the incident occurred.
+
+latitude: The latitude of the city in which the event occurred.
+
+longitude: The longitude of the city in which the event occurred.
+
+success: Success of a terrorist strike, 0 = 'No', 1= 'Yes'.
+
+suicide: 1 = "Yes" The incident was a suicide attack. 0 = "No" There is no indication that the incident was a suicide attack.
+
+attacktype1: The general method of attack.
+
+attacktype1_txt: The general method of attack and broad class of tactics used.
+
+targtype1_txt: The general type of target/victim.
+
+targsubtype1_txt: The more specific target category.
+
+target1: The specific person, building, installation that was targeted and/or victimized.
+
+natlty1_txt: The nationality of the target that was attacked.
+
+gname: The name of the group that carried out the attack.
+
+gsubname: Additional details about the group that carried out the attack like factions.
+
+nperps: The total number of terrorists participating in the incident.
+
+weaptype1_txt: General type of weapon used in the incident.
+
+weapsubtype1_txt: More specific value for most of the Weapon Types.
+
+nkill: The number of total confirmed fatalities for the incident.
+
+nkillus: The number of U.S. citizens who died as a result of the incident.
