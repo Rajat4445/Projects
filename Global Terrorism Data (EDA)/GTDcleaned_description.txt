@@ -1,0 +1,90 @@
+1. Year: Year in which the incident occurred.
+
+2. Month: Month in which the incident occurred.
+
+3. Day: Numeric Day of the month when the incident occurred.
+
+4. Extended Incident?: Duration of the incident extended more than 24 hours, "Yes" and "No" are values.
+
+5. Country: This field identifies the country or location where the incident occurred.
+
+6. Region: This field identifies the region in which the incident occurred.
+
+7. Province / Administrative Region / State: This variable records the name (at the time of the event) of the 1st order subnational administrative region in which the event occurs.
+
+8. City: This field contains the name of the city, village, or town in which the incident occurred.
+
+9. Latitude: This field records the latitude (based on WGS1984 standards) of the city in which the event occurred.
+
+10. Longitude: This field records the longitude (based on WGS1984 standards) of the city in which the event occurred.
+
+11. Vicinity: The incident occurred in the immediate vicinity of the city in question ("Yes"). The incident in the city itself ("No").
+
+12. POLITICAL, ECONOMIC, RELIGIOUS, OR SOCIAL GOAL: The violent act must be aimed at attaining a political, economic, religious, or social goal, "Yes" or "No" values.
+
+13. INTENTION TO COERCE, INTIMIDATE OR PUBLICIZE TO LARGER AUDIENCE(S): An intention to coerce, intimidate, or convey some other message to a larger audience (or audiences) than the immediate victims, "Yes" or "No" values.
+
+14. OUTSIDE INTERNATIONAL HUMANITARIAN LAW: The action is outside the context of legitimate warfare activities, insofar as it targets non-combatants, "Yes" or "No" values.
+
+15. Doubt if Terrorism?: There is doubt as to whether the incident is an act of terrorism ("Yes"). There is essentially no doubt as to whether the incident is an act of terrorism ("No").
+
+16. Part of Multiple Incident: The attack is part of a multiple incident, "Yes" or "No" values.
+
+17. Successful Attack: The incident was successful, "Yes" or "No" values.
+
+18. Suicide Attack: The incident was a suicide attack, "Yes" or "No" values.
+
+19. Attack Type: This field captures the general method of attack and often reflects the broad class of tactics used.
+
+20. Target/Victim Type: The target/victim type field captures the general type of target/victim.
+
+21. Target/Victim Subtype: The target subtype variable captures the more specific target category and provides the next level of designation for each target type.
+
+22. Name of Entity: This is the name of the corporate entity or government agency that was targeted. If the element targeted is unspecified, “Unknown” is listed. If no specific entity was targeted, “Not Applicable” is recorded.
+
+23. Specific Target/Victim: This is the specific person, building, installation, etc., that was targeted and/or victimized and is a part of the entity named above.
+
+24. Nationality of Target/Victim: This is the nationality of the target that was attacked, and is not necessarily the same as the country in which the incident occurred, although in most cases it is.
+
+25. Perpetrator Group Name: This field contains the name of the group that carried out the attack.
+
+26. First Perpetrator Group Suspected/Unconfirmed?: This variable indicates whether or not the information reported by sources about the Perpetrator Group Name(s) is based on speculation or dubious claims of responsibility.
+   - "Yes" : The perpetrator attribution(s) for the incident are suspected.
+   - "No" : The perpetrator attribution(s) for the incident are not suspected.
+   
+27. Number of Perpetrators Captured: This field records the number of perpetrators taken into custody. “-99” or “Unknown” appears when there is evidence of captured, but the number is not reported.
+
+28. Claim of Responsibility?: A group or person claimed responsibility for the attack, "Yes" or "No" values.
+
+29. Weapon Type: Up to four weapon types are recorded for each incident. This field records the general type of weapon used in the incident.
+
+30. Weapon Sub-type: This field records a more specific value for most of the Weapon Types identified immediately above.
+
+31. Total Number of Fatalities: This field stores the number of total confirmed fatalities for the incident. The number includes all victims and attackers who died as a direct result of the incident.
+
+32. Number of US Fatalities: This field records the number of U.S. citizens who died as a result of the incident.
+
+33. Number of Perpetrator Fatalities: Limited to only perpetrator fatalities.
+
+34. Total Number of Injured: This field records the number of confirmed non-fatal injuries to both perpetrators and victims.
+
+35. Number of US Injured: This field records the number of confirmed non-fatal injuries to U.S. citizens, both perpetrators and victims.
+
+36. Number of Perpetrators Injured: Limited to only perpetrator injured.
+
+37. Property Damage: “Yes” appears if there is evidence of property damage from the incident and vice versa for "No".
+
+38. Hostages or Kidnapping Victims: This field records whether or not the victims were taken hostage (i.e. held against their will) or kidnapped (i.e. held against their will and taken to another location) during an incident, "Yes", "No" or "Unknown" values.
+
+39. Data Collection: This field identifies the original data collection effort in which each event was recorded.
+
+40. International- Logistical: This variable is based on a comparison between the nationality of the perpetrator group and the location of the attack. It indicates whether a perpetrator group crossed a border to carry out an attack.
+
+41. International- Ideological: This variable is based on a comparison between the nationality of the perpetrator group and the nationality of the target(s)/victim(s). It indicates whether a perpetrator group attacked a target of a different nationality.
+
+42. International- Miscellaneous: This variable is based on a comparison between the location of the attack and the nationality of the target(s)/victim(s). It indicates whether a perpetrator group attacked a target of a different nationality.
+
+43. International- Any of the above:
+   - "Yes" : The attack was international on any of the dimensions described above (logistically, ideologically, miscellaneous).
+   - "No" : The attack was domestic on all of the dimensions described above (logistically, ideologically, miscellaneous).
+   - "Unknown" : It is unknown if the attack was international or domestic; the value for one or more dimensions is unknown.
