@@ -38,7 +38,12 @@ The project is structured as follows:
 
 ## Libraries Used
 
-- Python 3.10    - Pandas      - NumPy     - Matplotlib     - Seaborn   - Jupyter Notebook
+- Python 3.10
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ## Getting Started
 
