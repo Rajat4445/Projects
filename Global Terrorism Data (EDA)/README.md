@@ -77,6 +77,8 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 
 ## Results and Conclusions
 
+Yet to be authored!!!!
+
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
 
 For detailed findings, visualizations, and interpretations, refer to the Jupyter Notebook: [exploratory_data_analysis.ipynb](notebooks/exploratory_data_analysis.ipynb).
