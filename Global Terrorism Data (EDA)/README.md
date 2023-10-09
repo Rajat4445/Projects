@@ -64,7 +64,11 @@ The project is structured as follows:
 
 ## Data Cleaning
 
+Apart from the database, we also received `Codebook.pdf` from the Global Terrorism Database maintaining team (University of Maryland), which contains the details of all the columns present in the database provided. We used this codebook to understand the database better and create a new file named `column_description.txt` containing the details of all the columns before data cleaning.
+
 The notebook `data_cleaning.ipynb` contains the code and approach followed to clean `gtd.csv` (original dataset) as many columns of this dataset had missing values. Apart from treating missing values, we have also engineered new columns, renamed the existing columns (for better readability) and saved cleaned data into a new csv file named `gtd_cleaned.csv` as output. 
+
+After performing data cleaning, we have created another file named `GTDcleaned_description.txt` which contains the description of all the columns alongwith the details on missing values. This would be helpful for understanding the columns during EDA.
 
 ## Exploratory Data Analysis
 
