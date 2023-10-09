@@ -2,18 +2,21 @@
 
 ## Overview
 
-This project focuses on conducting an Exploratory Data Analysis (EDA) on the Global Terrorism Database. The Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world from 1970 through 2019.
+This project focuses on conducting an Exploratory Data Analysis (EDA) on the Global Terrorism Database.The Global Terrorism Database™ (GTD) is a comprehensive open-source database containing detailed information on terrorist events worldwide, spanning from 1970 through 2020. The database is continuously updated, with additional annual updates planned for the future. Unlike many other event databases, the GTD provides systematic data not only on international terrorist incidents but also on domestic and transnational events. It encompasses a vast collection of over 200,000 cases, each offering valuable insights into acts of terrorism.
+
+### Characteristics of the GTD
+
+- Contains data on over 200,000 terrorist attacks.
+- Represents the most comprehensive unclassified database on terrorist attacks globally.
+- Encompasses information on more than 88,000 bombings, 19,000 assassinations, and 11,000 kidnappings since 1970.
+- Provides details on at least 45 variables for each case, with recent incidents offering information on more than 120 variables.
+- Utilizes a vast corpus of over 4,000,000 news articles and 25,000 news sources to collect incident data from 1998 to 2017 alone.
+
+For more information and to request access to the dataset, visit the [Global Terrorism Database (GTD) page](https://www.start.umd.edu/gtd/about/).
+
+## Goal
 
 The goal of this project is to explore the dataset, identify patterns, trends, and insights related to terrorism activities, and visualize the data to provide a better understanding of global terrorism dynamics.
-
-## Dataset
-
-The dataset used in this project is the Global Terrorism Database (GTD), sourced from [START.umd.edu](https://www.start.umd.edu/gtd/). The dataset contains a wide range of attributes for each terrorist event, such as location, date, attack type, target type, weapons used, casualties, and more.
-
-**Dataset Information:**
-- Dataset Name: Global Terrorism Database (GTD)
-- Source: [START.umd.edu](https://www.start.umd.edu/gtd/)
-- Time Period: 1970 - 2019
 
 ## Project Structure
 
@@ -21,10 +24,12 @@ The project is structured as follows:
 
 ```
 - data/                          # Folder for storing the dataset
-  - global_terrorism_data.csv    # Global Terrorism Database (GTD) CSV file
+  - gtd.csv    # Global Terrorism Database (GTD) CSV file
   
 - notebooks/                     # Jupyter Notebooks for data analysis and visualization
-  - exploratory_data_analysis.ipynb  # Main EDA notebook
+  - data_cleaning.ipynb          # data cleaning of gtd.csv dataset
+  - exploratory_data_analysis.ipynb  # Main EDA notebook, takes gtd_cleaned.csv as an input
+  
   
 - images/                        # Folder for storing generated images and plots
   
@@ -33,7 +38,7 @@ The project is structured as follows:
 
 ## Libraries Used
 
-- Python 3.x
+- Python 3.10
 - Pandas
 - NumPy
 - Matplotlib
@@ -45,7 +50,7 @@ The project is structured as follows:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your_username/global-terrorism-eda.git
+   git clone https://github.com/rajat4445/Global Terrorism Data (EDA).git
    cd global-terrorism-eda
    ```
 
@@ -57,9 +62,13 @@ The project is structured as follows:
 
 3. Open and run the Jupyter Notebook `exploratory_data_analysis.ipynb` to perform the exploratory data analysis.
 
+## Data Cleaning
+
+The notebook `data_cleaning.ipynb` contains the code and approach followed to clean `gtd.csv` (original dataset) as many columns of this dataset had missing values. Apart from treating missing values, we have also engineered new columns, renamed the existing columns (for better readability) and saved cleaned data into a new csv file named `gtd_cleaned.csv` as output. 
+
 ## Exploratory Data Analysis
 
-The notebook `exploratory_data_analysis.ipynb` contains the code for exploring the Global Terrorism Database. The analysis includes:
+The notebook `exploratory_data_analysis.ipynb` contains the code for exploring the Global Terrorism Database. We used the output dataset (`gtd_cleaned.csv`) from the previous step, i.e., data cleaning.  The analysis includes:
 
 - Data loading and preprocessing
 - Descriptive statistics
@@ -74,8 +83,8 @@ For detailed findings, visualizations, and interpretations, refer to the Jupyter
 
 ## Author
 
-- Your Name
-- Contact: your_email@example.com
+- Rajat Bahuguna
+- Contact: Rajatbahuguna4445@gmail.com
 
 Feel free to reach out for any inquiries, suggestions, or collaborations related to this project.
 
