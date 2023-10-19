@@ -95,6 +95,13 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 - Around `28%` (majority) of the attacks have been in `Middle East & North Africa` followed by `South Asia` (`26%%`),`Sub-Saharan Africa` (`11.3%`) and `South America` (`9.5%%`).
 - There is no such pattern in `Province / Administrative Region / State` as the distribution is very uniform, no pattern can be observed. Similar is true for `City` column.
 - Around `77%` of the attacks are undoubtedly terrorist attack, rest `17%` are doubted and remaing `6%` have no data available.
+- Around `85%` of the attacks are not a part of multiple incident, rest `15%` are part of a multiple incident.
+- Majority of attacks, around `88%` of the attacks were successful, rest `12%` were not successful.
+- Most number of attacks are `Bombing/Explosion` (`47%`) followed by `Armed Assault` (`24%`) and `Assassination` (`10%`)
+- `Private Citizens & Property`(`24.8%`) have been targeted the most, followed by, `Military (16.3%)`), `Police (13.6%)`, `Government (11.4%)` and `Business (10.6%)`
+- As the number of attacks were highest in `Iraq`, and the `Nationality of Target/Victim` in majority is `Iraqi` followed by `Afghanistan`, `Pakistan` and `India`, that is same order as that of `Country` with attacks in descending order.
+- `Taliban (10.2%)` is the most active perpetrator group followed by `Islamic State of Iraq and the Levant (ISIL) (6.2%)`,`Shining Path (SL) (3.9%)` and `Al-Shabaab (3.8%)`.
+
   
 
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
