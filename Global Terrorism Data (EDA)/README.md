@@ -81,11 +81,21 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 
 ## Results and Conclusions
 
+### Univariate Analysis (Numerical)
+
 - Observed that **several numeric columns have high correlation with other numeric columns** but **missing values** in numeric columns were **imputed with single value, i.e., "-99"**, which may have artificially **lead to high degree of correlation** between these columns.Thus, **Using correlation** as a method to understand the relationship **between these columns is not reliable**.
 - `Number of terrorist attack` increased gradually till 2014, where there were maximum terrorist attacks and after 2014, number of attacks started to decrease.
 - `Number of perpetrators` captured has **increased over the year maximising at 2012** and fluctuating after that.
 - We made a lineplot to look at all unknown values in `Number of Perpetrators Captured` column and observed that **number of unknown values increases and lies between a range of 700-5000 till the year 1998** which indicates that `number of perpetrators` captured might not have been recorded for these years leading to "missing" or "unknown" values.
-- 
+
+### Univariate Analysis (Categorical)
+
+- Around `95%` of the attacks are not `Extended Incident`s, which means they did not exceed a duration of 24 hours.
+- Around `13%` (majority) of the attacks have been in `Iraq` followed by `Afghanistan` (`9%`),`Pakistan` (`7.4%`) and `India` (`6.6%`).
+- Around `28%` (majority) of the attacks have been in `Middle East & North Africa` followed by `South Asia` (`26%%`),`Sub-Saharan Africa` (`11.3%`) and `South America` (`9.5%%`).
+- There is no such pattern in `Province / Administrative Region / State` as the distribution is very uniform, no pattern can be observed. Similar is true for `City` column.
+- Around `77%` of the attacks are undoubtedly terrorist attack, rest `17%` are doubted and remaing `6%` have no data available.
+  
 
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
 
