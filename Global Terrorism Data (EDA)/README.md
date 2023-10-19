@@ -81,6 +81,7 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 
 ## Results and Conclusions
 
+- `Number of terrorist attack` increased gradually till 2014, where there were maximum terrorist attacks and after 2014, number of attacks started to decrease.
 - 
 
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
