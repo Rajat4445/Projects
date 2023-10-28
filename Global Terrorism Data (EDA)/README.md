@@ -104,6 +104,9 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 
 ### Bivariate and Multivariate Analysis
 
+- Number of terrorist attacks have **increased** over the years and making `Middle East & North Africa` and `South Asia` as the regions with **Maximum attacks.**
+- `Region`s where attacks extended over 24 hours are `South Asia`, `Sub-Saharan Africa` and `Middle East & North Africa` (in descending order).
+
   
 
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
