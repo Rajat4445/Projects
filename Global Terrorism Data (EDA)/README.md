@@ -102,6 +102,8 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 - As the number of attacks were highest in `Iraq`, and the `Nationality of Target/Victim` in majority is `Iraqi` followed by `Afghanistan`, `Pakistan` and `India`, that is same order as that of `Country` with attacks in descending order.
 - `Taliban (10.2%)` is the most active perpetrator group followed by `Islamic State of Iraq and the Levant (ISIL) (6.2%)`,`Shining Path (SL) (3.9%)` and `Al-Shabaab (3.8%)`.
 
+### Bivariate and Multivariate Analysis
+
   
 
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
