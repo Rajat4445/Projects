@@ -105,7 +105,7 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 ### Bivariate and Multivariate Analysis
 
 - Number of terrorist attacks have **increased** over the years and making `Middle East & North Africa` and `South Asia` as the regions with **Maximum attacks.**
-- `Region`s where attacks extended over 24 hours are `South Asia`, `Sub-Saharan Africa` and `Middle East & North Africa` (in descending order).
+  - `Region`s where attacks extended over 24 hours are `South Asia`, `Sub-Saharan Africa` and `Middle East & North Africa` (in descending order).
   - The countries where attacks extended 24 hours are `Afghanistan` with max attacks followed by `India`, `Nigeria`, `Iraq` etc.
   - Majority (around `85%`) of the attacks involved `Hostage Taking`, followed by `Armed Assault` (around `7%`)
   - Although majority of attacks have `Unknown` (`~26%`) group name, the most active Perpetrator Groups are `Taliban` followed by `ISIL`, `Ansar Allah`, `Boko Haram`, `Al-Shabaab` etc.
