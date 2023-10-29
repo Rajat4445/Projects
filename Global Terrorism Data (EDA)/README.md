@@ -111,6 +111,45 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
   - Although majority of attacks have `Unknown` (`~26%`) group name, the most active Perpetrator Groups are `Taliban` followed by `ISIL`, `Ansar Allah`, `Boko Haram`, `Al-Shabaab` etc.
   - `Firearms` are very common `Weapon Type` followed by a category of `Unknown` weapon types.
   - `Explosives` and `Melee` weapons are also being used by in a comparatively small proportion.
+ 
+- `Middle East & North Africa` has maximum number of fatalities followed by `South Asia` and `Sub-Saharan Africa`
+- For `Middle East & North Africa` Region, `Iraq` has the highest Fatalities followed by `Syria` and `Yemen`
+- For `South Asia` Region, `Afghanistan` has highest Fatalities followed by `Pakistan` and `India`
+- For `Sub-Saharan Africa` Region, `Nigeria` has highest fatalities followed by `Somalia` and `Congo`
+
+- For `Attack Type`:
+    - `Armed Assault` followed by `Bombing/Explosion` and `Hostage Taking (Kidnapping)` is most common attack type in `Sub-Saharan Africa`n region.
+    - `Bombing/Explosion` followed by `Armed Assault` and `Assassination` is most common attack type in `Middle East & North Africa`n region. Similar is true for `South Asia`n region.
+
+#### Region Wise
+- For `Target/Victim Type`:
+    - `Private Citizens & Property` followed by `Millitary` and `Government (General)` are most common Target type in `Sub-Saharan Africa`n region. Similar is true for `South Asia`n region.
+    - Similar is true for `Middle East & North Africa`n region except `Police` is the third highest target type.
+
+- For `Nationality of Target/Victim`:
+    - `Nigeria` followed by `Somalia` and `South Africa` is most common nationality of target in `Sub-Saharan Africa`n region.
+    - `Iraq` followed by `Yemen` and `Turkey` is most common nationality of target in `Middle East & North Africa`n region.
+    - `Afghanistan` followed by `Pakistan` and `India` is most common nationality of target in `South Asia`n region.
+    
+- For `Perpetrator Group Name`:
+    - Although majority of attacks have been done by `Unknown` perpetrators, but `Al-Shabaab` followed by `Boko Haram` and `Fulani Extremists` are most active in `Sub-Saharan Africa`.
+    - Similar to `Sub-Saharan Africa`, in named perpetrator groups, `ISIL` followed by `Ansar Allah` and `PKK` are most active groups in `Middle East & North Africa`
+    - `Taliban`, `CPI-Maoists` and `Maoists` are most active named perpetrator groups in `South Asia`n region.
+    
+- For `Weapon Type`
+    - `Firearms` and `Explosives` are most common weapon type in all three regions.
+
+- `Middle East & North Africa`, `South Asia` and `Sub-Saharan Africa` have the highest Successful suicide attacks.
+- Majority of Data has been colelction by `START Primary Collection` (50%) followed by `PGIS` (30%), `ISVG` (8.2%) and `CETIS` (7.7%)
+
+####  🌟 Unveiling the Shadows: The Turbulence of Terrorist Incidents in India 🌟
+
+- Attacks in `India` have peaked around `2016` which is a little different from the world
+- Roughly 40% of attack are `Bombing/Explosion` followed by `Armed Assualt` (26%), `Hostage Taking (Kidnapping)` (10%) and `Assassination` (9%)
+- Total Number of Fatalities have been highest in `Srinagar` followed by `Mumbai`, `New Delhi` and `Amritsar`
+- `Private Citizen & Property` are most targeted followed by `Police` and `Government (General)`
+- `CPI-Maoist` are the most active terrorist group followed by `Maoist` and `Sikh Extremists`
+- `Explosives` and `Firearms` are most common weapon type used in terrorist attacks of India.
 
   
 
