@@ -83,75 +83,48 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 
 ### Univariate Analysis (Numerical)
 
-- Observed that **several numeric columns have high correlation with other numeric columns** but **missing values** in numeric columns were **imputed with single value, i.e., "-99"**, which may have artificially **lead to high degree of correlation** between these columns.Thus, **Using correlation** as a method to understand the relationship **between these columns is not reliable**.
-- `Number of terrorist attack` increased gradually till 2014, where there were maximum terrorist attacks and after 2014, number of attacks started to decrease.
-- `Number of perpetrators` captured has **increased over the year maximising at 2012** and fluctuating after that.
-- We made a lineplot to look at all unknown values in `Number of Perpetrators Captured` column and observed that **number of unknown values increases and lies between a range of 700-5000 till the year 1998** which indicates that `number of perpetrators` captured might not have been recorded for these years leading to "missing" or "unknown" values.
+- High correlation among numeric columns, but caution needed due to imputed missing values.
+- Gradual increase in terrorist attacks until 2014, followed by a decline.
+- Number of perpetrators captured peaked in 2012.
+- Missing data in `Number of Perpetrators Captured` particularly until 1998.
 
 ### Univariate Analysis (Categorical)
 
-- Around `95%` of the attacks are not `Extended Incident`s, which means they did not exceed a duration of 24 hours.
-- Around `13%` (majority) of the attacks have been in `Iraq` followed by `Afghanistan` (`9%`),`Pakistan` (`7.4%`) and `India` (`6.6%`).
-- Around `28%` (majority) of the attacks have been in `Middle East & North Africa` followed by `South Asia` (`26%%`),`Sub-Saharan Africa` (`11.3%`) and `South America` (`9.5%%`).
-- There is no such pattern in `Province / Administrative Region / State` as the distribution is very uniform, no pattern can be observed. Similar is true for `City` column.
-- Around `77%` of the attacks are undoubtedly terrorist attack, rest `17%` are doubted and remaing `6%` have no data available.
-- Around `85%` of the attacks are not a part of multiple incident, rest `15%` are part of a multiple incident.
-- Majority of attacks, around `88%` of the attacks were successful, rest `12%` were not successful.
-- Most number of attacks are `Bombing/Explosion` (`47%`) followed by `Armed Assault` (`24%`) and `Assassination` (`10%`)
-- `Private Citizens & Property`(`24.8%`) have been targeted the most, followed by, `Military (16.3%)`), `Police (13.6%)`, `Government (11.4%)` and `Business (10.6%)`
-- As the number of attacks were highest in `Iraq`, and the `Nationality of Target/Victim` in majority is `Iraqi` followed by `Afghanistan`, `Pakistan` and `India`, that is same order as that of `Country` with attacks in descending order.
-- `Taliban (10.2%)` is the most active perpetrator group followed by `Islamic State of Iraq and the Levant (ISIL) (6.2%)`,`Shining Path (SL) (3.9%)` and `Al-Shabaab (3.8%)`.
+- Most attacks are not extended incidents (lasting less than 24 hours).
+- Iraq is the most targeted country (13%), followed by Afghanistan (9%), Pakistan (7.4%), and India (6.6%).
+- Middle East & North Africa (28%) and South Asia (26%) are high-attack regions.
+- No clear patterns in 'Province / Administrative Region / State' and 'City' columns.
+- 77% undoubtedly classified as terrorist attacks, 17% doubted, and 6% lack data.
+- 85% of attacks are not part of multiple incidents.
+- Most attacks (88%) are successful.
+- Common attack types include 'Bombing/Explosion' (47%), 'Armed Assault' (24%), and 'Assassination' (10%).
+- 'Private Citizens & Property' (24.8%) are the most targeted, followed by 'Military' (16.3%), 'Police' (13.6%), 'Government' (11.4%), and 'Business' (10.6%).
+- Active perpetrator groups like 'Taliban' (10.2%) and 'ISIL' (6.2%).
 
 ### Bivariate and Multivariate Analysis
 
-- Number of terrorist attacks have **increased** over the years and making `Middle East & North Africa` and `South Asia` as the regions with **Maximum attacks.**
-  - `Region`s where attacks extended over 24 hours are `South Asia`, `Sub-Saharan Africa` and `Middle East & North Africa` (in descending order).
-  - The countries where attacks extended 24 hours are `Afghanistan` with max attacks followed by `India`, `Nigeria`, `Iraq` etc.
-  - Majority (around `85%`) of the attacks involved `Hostage Taking`, followed by `Armed Assault` (around `7%`)
-  - Although majority of attacks have `Unknown` (`~26%`) group name, the most active Perpetrator Groups are `Taliban` followed by `ISIL`, `Ansar Allah`, `Boko Haram`, `Al-Shabaab` etc.
-  - `Firearms` are very common `Weapon Type` followed by a category of `Unknown` weapon types.
-  - `Explosives` and `Melee` weapons are also being used by in a comparatively small proportion.
- 
-- `Middle East & North Africa` has maximum number of fatalities followed by `South Asia` and `Sub-Saharan Africa`
-- For `Middle East & North Africa` Region, `Iraq` has the highest Fatalities followed by `Syria` and `Yemen`
-- For `South Asia` Region, `Afghanistan` has highest Fatalities followed by `Pakistan` and `India`
-- For `Sub-Saharan Africa` Region, `Nigeria` has highest fatalities followed by `Somalia` and `Congo`
-
-- For `Attack Type`:
-    - `Armed Assault` followed by `Bombing/Explosion` and `Hostage Taking (Kidnapping)` is most common attack type in `Sub-Saharan Africa`n region.
-    - `Bombing/Explosion` followed by `Armed Assault` and `Assassination` is most common attack type in `Middle East & North Africa`n region. Similar is true for `South Asia`n region.
-
-#### Region Wise
-- For `Target/Victim Type`:
-    - `Private Citizens & Property` followed by `Millitary` and `Government (General)` are most common Target type in `Sub-Saharan Africa`n region. Similar is true for `South Asia`n region.
-    - Similar is true for `Middle East & North Africa`n region except `Police` is the third highest target type.
-
-- For `Nationality of Target/Victim`:
-    - `Nigeria` followed by `Somalia` and `South Africa` is most common nationality of target in `Sub-Saharan Africa`n region.
-    - `Iraq` followed by `Yemen` and `Turkey` is most common nationality of target in `Middle East & North Africa`n region.
-    - `Afghanistan` followed by `Pakistan` and `India` is most common nationality of target in `South Asia`n region.
-    
-- For `Perpetrator Group Name`:
-    - Although majority of attacks have been done by `Unknown` perpetrators, but `Al-Shabaab` followed by `Boko Haram` and `Fulani Extremists` are most active in `Sub-Saharan Africa`.
-    - Similar to `Sub-Saharan Africa`, in named perpetrator groups, `ISIL` followed by `Ansar Allah` and `PKK` are most active groups in `Middle East & North Africa`
-    - `Taliban`, `CPI-Maoists` and `Maoists` are most active named perpetrator groups in `South Asia`n region.
-    
-- For `Weapon Type`
-    - `Firearms` and `Explosives` are most common weapon type in all three regions.
-
-- `Middle East & North Africa`, `South Asia` and `Sub-Saharan Africa` have the highest Successful suicide attacks.
-- Majority of Data has been colelction by `START Primary Collection` (50%) followed by `PGIS` (30%), `ISVG` (8.2%) and `CETIS` (7.7%)
+- Increasing terrorism over the years, with the Middle East & North Africa and South Asia having the most attacks.
+- Duration of attacks extending over 24 hours in South Asia, Sub-Saharan Africa, and Middle East & North Africa.
+- Afghanistan, India, Nigeria, and Iraq had the most prolonged attacks.
+- 'Hostage Taking' involved in the majority of attacks (around 85%).
+- Common perpetrator groups, including 'Taliban' and 'ISIL.'
+- Most common weapon types: 'Firearms' and 'Explosives.'
+- High fatalities in the Middle East & North Africa, South Asia, and Sub-Saharan Africa.
+- Different regions have different attack type patterns.
+- 'Private Citizens & Property' most common target in various regions.
+- Specific nationalities targeted in different regions.
+- Active perpetrator groups vary by region.
+- Common weapon types are 'Firearms' and 'Explosives.'
+- High successful suicide attacks in specific regions.
+- Majority of data collected by 'START Primary Collection' (50%).
 
 ####  🌟 Unveiling the Shadows: The Turbulence of Terrorist Incidents in India 🌟
 
-- Attacks in `India` have peaked around `2016` which is a little different from the world
-- Roughly 40% of attack are `Bombing/Explosion` followed by `Armed Assualt` (26%), `Hostage Taking (Kidnapping)` (10%) and `Assassination` (9%)
-- Total Number of Fatalities have been highest in `Srinagar` followed by `Mumbai`, `New Delhi` and `Amritsar`
-- `Private Citizen & Property` are most targeted followed by `Police` and `Government (General)`
-- `CPI-Maoist` are the most active terrorist group followed by `Maoist` and `Sikh Extremists`
-- `Explosives` and `Firearms` are most common weapon type used in terrorist attacks of India.
-
-  
+- Peak in attacks around 2016.
+- Dominance of 'Bombing/Explosion' (40%) and 'Armed Assault' (26%).
+- High fatalities in cities like 'Srinagar,' 'Mumbai,' 'New Delhi,' and 'Amritsar.'
+- 'CPI-Maoist' is the most active group.
+- 'Explosives' and 'Firearms' are commonly used in India.
 
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
 
