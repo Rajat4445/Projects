@@ -70,6 +70,8 @@ The notebook `data_cleaning.ipynb` contains the code and approach followed to cl
 
 After performing data cleaning, we have created another file named `GTDcleaned_description.txt` which contains the description of all the columns alongwith the details on missing values. This would be helpful for understanding the columns during EDA.
 
+To read the approach in detail, open `Data Cleaning Approach.pdf`
+
 ## Exploratory Data Analysis
 
 The notebook `exploratory_data_analysis.ipynb` contains the code for exploring the Global Terrorism Database. We used the output dataset (`gtd_cleaned.csv`) from the previous step, i.e., data cleaning.  The analysis includes:
@@ -129,6 +131,8 @@ The notebook `exploratory_data_analysis.ipynb` contains the code for exploring t
 The analysis provides insights into various aspects of global terrorism, including trends over time, distribution of attacks by country and region, preferred attack types, common targets, and more. The conclusions drawn from this analysis can help in understanding the patterns of terrorism activities worldwide.
 
 For detailed findings, visualizations, and interpretations, refer to the Jupyter Notebook: [exploratory_data_analysis.ipynb](notebooks/exploratory_data_analysis.ipynb).
+
+For detailed report of the above findings, refer to `Detailed Report.pdf`
 
 ## Author
 
