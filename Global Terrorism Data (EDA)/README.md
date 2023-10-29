@@ -43,6 +43,7 @@ The project is structured as follows:
 - NumPy
 - Matplotlib
 - Seaborn
+- ipywidgets
 - Jupyter Notebook
 
 ## Getting Started
